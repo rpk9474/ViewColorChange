@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var RedView: UIView!
+    @IBOutlet weak var BlueView: UIView!
+    @IBOutlet weak var GreenView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
