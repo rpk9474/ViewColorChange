@@ -20,12 +20,21 @@ class ViewController: UIViewController {
         self.view.backgroundColor = UIColor.lightGray
         
         
-        
-        
-        
-        
     }
 
-
+    @IBAction func RedButton(_ sender: Any) {
+        RedView.isHidden = true
+    }
+    
+    @IBAction func BlueButton(_ sender: Any) {
+        BlueView.isHidden = true
+        
+    }
+    
+    @IBAction func GreenButton(_ sender: Any) {
+        GreenView.isHidden = true
+        
+    }
+    
 }
 
